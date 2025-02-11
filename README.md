@@ -20,7 +20,7 @@ keyboard.add(
 @dp.message_handler(commands=['start'])
 async def start_command(message: types.Message):
     await message.answer(f"""
-    Привет! Я бот компании Premier city.
+    Привет! Я бот компании ....
     Мы предоставляем услуги по купли и продаже недвижимости.
     
     Вот что я могу:
@@ -39,9 +39,9 @@ async def info_command(message: types.Message):
 @dp.message_handler(commands=['contact'])
 async def contact_command(message: types.Message):
       await message.answer(f"""
-Наш сайт: Prcity.pro
-Контактные данные: +7 938 795-55-97
-Адрес: Дахадаева 86, 4 этаж""", reply_markup=keyboard)     
+Наш сайт: ...
+Контактные данные:...
+Адрес: ..., reply_markup=keyboard)     
 
 # Запуск бота
 if __name__ == "__main__":
